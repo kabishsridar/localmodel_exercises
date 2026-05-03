@@ -36,3 +36,8 @@ Welcome to the local model training exercises. These exercises are designed to h
 1.  **LM Studio:** For running local inference.
 2.  **Coding Agent:** (e.g., Antigravity, Cline, or VS Code Copilot) to assist with script writing in Level 2 & 3.
 3.  **Exercise Data:** All raw materials are organized in their respective level folders.
+
+---
+
+## 👤 Contributor
+This repository was built and maintained by Kabish. Good luck with your learning journey!
