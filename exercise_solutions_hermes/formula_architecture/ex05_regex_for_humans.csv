@@ -1,0 +1,11 @@
+Original,Detected_Format,Normalized,Status,Confidence
+1234567890,Plain Digits,(123) 456-7890,✅ Valid,High
+(987) 654-3210,(XXX) XXX-XXXX,(987) 654-3210,✅ Valid,High
+555.123.4567,XXX.XXX.XXXX,(555) 123-4567,✅ Valid,High
++1-212-555-0199,+1-XXX-XXX-XXXX,(212) 555-0199,✅ Valid,High
+444 555 6666,XXX XXX XXXX,(444) 555-6666,✅ Valid,High
+(202)-555-0143,(XXX)-XXX-XXXX,(202) 555-0143,✅ Valid,High
+8005551212,Plain Digits,(800) 555-1212,✅ Valid,High
+917.555.0110,XXX.XXX.XXXX,(917) 555-0110,✅ Valid,High
++1 415 555 2671,+1 XXX XXX XXXX,(415) 555-2671,✅ Valid,High
+(718) 555 0192,(XXX) XXX XXXX,(718) 555-0192,✅ Valid,High

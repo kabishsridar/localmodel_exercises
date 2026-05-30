@@ -1,0 +1,8 @@
+Row,Item,Quantity,Qty_Issue,Unit_Price,Price_Issue,Original_Total,Total_Error,Fixed_Total,Calculation_Status,Correction_Made,Error_Category,Recommendation
+2,Widget A,10,Valid Number,15,Valid Number,150,Valid Number,$150.00,✅ Valid Amount,No change needed,Valid Data,No action needed - data is correct.
+3,Widget B,5,Valid Number,N/A,Text: N/A (Not Applicable),#VALUE!,#VALUE! - Formula Error (invalid calculation),N/A,Invalid Price: N/A,,Price Issues,"Ensure all prices are numeric. Replace 'Error', 'N/A' with 0 or proper value."
+4,Widget C,12,Valid Number,20,Valid Number,240,Valid Number,$240.00,✅ Valid Amount,No change needed,Valid Data,No action needed - data is correct.
+5,Widget D,None,Non-numeric Text (may cause calculation errors),30,Valid Number,#VALUE!,#VALUE! - Formula Error (invalid calculation),N/A,Parse Error: could not convert string to float: 'None',,Quantity Issues,"Check for text values like 'None', 'N/A' in quantity field. Use IFERROR() wrapper."
+6,Widget E,8,Valid Number,10,Valid Number,80,Valid Number,$80.00,✅ Valid Amount,No change needed,Valid Data,No action needed - data is correct.
+7,Widget F,15,Valid Number,Error,Text: ERROR (Invalid data entry),#VALUE!,#VALUE! - Formula Error (invalid calculation),N/A,Invalid Price: Error,,Price Issues,"Ensure all prices are numeric. Replace 'Error', 'N/A' with 0 or proper value."
+8,Widget G,20,Valid Number,5,Valid Number,100,Valid Number,$100.00,✅ Valid Amount,No change needed,Valid Data,No action needed - data is correct.

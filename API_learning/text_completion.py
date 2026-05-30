@@ -1,9 +1,11 @@
 import lmstudio as lms
 
-model = lms.llm()
+model = lms.llm("qwen/qwen3.5-35b-a3b")
 console_history = []
 
-while True:
+result = model.complete("My name is")
+print(result)
+""" while True:
     try:
         user_command = input("$ ")
     except EOFError:
@@ -20,4 +22,4 @@ while True:
     for fragment in prediction_stream:
         print(fragment.content, end="", flush=True)
     print()
-    console_history.append(prediction_stream.result().content)
+    console_history.append(prediction_stream.result().content) """

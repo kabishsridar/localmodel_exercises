@@ -1,0 +1,11 @@
+Status,Total,Customer ID,Discounted_Total,Discount_Amount,Discount_Applicable
+Gold,600,CUST101,510.0,90.0,✅ YES
+Silver,300,CUST102,300.0,0.0,❌ NO
+Gold,450,CUST103,450.0,0.0,❌ NO
+Bronze,100,CUST104,100.0,0.0,❌ NO
+Gold,1200,CUST105,1020.0,180.0,✅ YES
+Silver,800,CUST106,800.0,0.0,❌ NO
+Bronze,50,CUST107,50.0,0.0,❌ NO
+Gold,510,CUST108,433.5,76.5,✅ YES
+Silver,200,CUST109,200.0,0.0,❌ NO
+Gold,750,CUST110,637.5,112.5,✅ YES

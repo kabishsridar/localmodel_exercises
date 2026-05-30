@@ -1,0 +1,7 @@
+Task_ID,Description,Status,Priority,Urgent_Flag
+T001,Remember to call Sarah about the Q3 report by Friday. Priority: High.,Not Started,High,⚡ YES
+T002,Buy more printer ink - Status: Pending.,Pending,Medium,
+T003,Fix the bug in the login page - status: in progress. Priority: Critical.,In Progress,Critical,⚡ YES
+T004,Draft the board meeting agenda. Need this done ASAP. Status: To Do.,To Do,High,⚡ YES
+T005,Review the new designs from the UX team. Priority: Medium.,Not Started,Medium,
+T006,Schedule sync with the marketing team for next Tuesday. Status: Not Started.,Not Started,Medium,
